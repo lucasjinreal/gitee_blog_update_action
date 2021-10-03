@@ -4,7 +4,7 @@ name: Sync
 on:
   schedule:
     # 可自定义 cron 表达式, 每天凌晨2:30触发
-    - cron: '0 0 2 * * ?'
+    - cron: '0 2 * * *'
 
 jobs:
   build:
